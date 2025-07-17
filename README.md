@@ -1,40 +1,82 @@
-# Retail Price Optimization Project
+# 🛒 Retail Price Optimization Dashboard
 
-## Project Overview
-This project analyzes online retail sales data to optimize product pricing for maximizing profits. The analysis was performed using Python (Jupyter Notebook) and visualized through an interactive Power BI dashboard.
-
----
-
-## Files Description
-- `Cleaned_onlineRetail_for_PowerBi.csv`: Cleaned dataset used for analysis and dashboard.
-- `Optimization_Results.csv`: Results of pricing optimization including maximum profit and optimal price.
-- `Profi_curve_Data.csv`: Data for profit curve visualization (Price vs Profit).
-- `Retail_Price_Optimization.pbix`: Power BI dashboard file.
-- `Dashboard_Overview.png`: Screenshot of the final Power BI dashboard.
-- `Correlation_matrix.png`: Correlation matrix image showing feature relationships.
+This project focuses on retail price optimization using the **Online Retail** dataset. The goal is to analyze customer transactions and identify the optimal pricing strategy to maximize profit while visualizing insights through an interactive **Power BI dashboard**.
 
 ---
 
-## Dashboard Features
-- Monthly Revenue Trend
-- Top 10 Products by Revenue (Donut Chart)
-- Profit Curve (Price vs Profit)
-- Optimal Price and Max Profit KPIs
-- Revenue by Country Bar Chart
-- Correlation Matrix Image
+## 📊 Dashboard Overview
+
+![Dashboard Overview](Dashboard%20overview.png)
+
+The dashboard includes:
+
+- 💰 Monthly revenue trends
+- 📦 Top-selling products by revenue
+- 🎯 Profit curve visualization
+- 💡 Optimal price recommendations
+- 📉 Price vs Quantity correlation
+- 🔍 Slicers for dynamic filtering
 
 ---
 
-## How to Use
-1. Open `Retail_Price_Optimization.pbix` in Power BI Desktop.
-2. Explore the interactive charts and slicers.
-3. Use the CSV files for further analysis or modification.
+## 🛠 Tools & Technologies
+
+- **Python** (Jupyter Notebook) — Data cleaning, modeling & analysis
+- **Pandas / NumPy / Matplotlib / Seaborn**
+- **Power BI** — Data visualization & dashboard design
+- **Scikit-learn** — Price prediction modeling
 
 ---
 
-## About Me
-I am a Data Analyst with skills in data cleaning, visualization, and business intelligence. This project demonstrates my ability to handle real-world retail data and create actionable insights through dashboards.
+## 📁 Project Structure
+
+| File | Description |
+|------|-------------|
+| `Cleaned_onlineRetail_for_powerBi.csv` | Cleaned dataset ready for Power BI |
+| `Optimization_Results.csv` | Optimal price & max profit per product |
+| `Profit_curve_data.csv` | Price vs Profit data used for curve plotting |
+| `Retail_price_optimization.pbix` | Power BI dashboard file |
+| `Correlation matrix.png` | Correlation heatmap of numerical features |
+| `Dashboard overview.png` | Snapshot of the dashboard |
+| `Price_prediction.png` | Visualization of predicted prices |
+| `Price_vs_quantity.png` | Scatter plot: Price vs Quantity |
+| `Profit_curve.png` | Profit vs Price curve |
+| `Revenue_by_month.png` | Monthly revenue bar chart |
+| `Top_products.png` | Top products by revenue (donut chart) |
 
 ---
 
-Feel free to contact me for questions or collaboration!
+## 📌 Key Insights
+
+- Products have varied optimal price points for maximizing profit
+- Some high-volume items are underpriced
+- Revenue is highly seasonal, with spikes during Q4
+- Correlation between unit price and quantity purchased is weak
+
+---
+
+## 🧠 How the Optimization Works
+
+The model estimates profit at different price levels based on historical sales and builds a **profit curve**. The **optimal price** is selected at the peak of this curve for each product.
+
+---
+
+## 📎 Usage
+
+To explore the dashboard:
+
+1. Download the `Retail_price_optimization.pbix` file
+2. Open in Power BI Desktop
+3. Use slicers to filter by product, time, and more
+
+---
+
+## 🔗 Connect
+
+Feel free to connect with me on [LinkedIn](http://linkedin.com/in/khoshaba-odeesho-17b5b92aa) to discuss data analysis, business intelligence, or collaborative work!
+
+---
+
+## 📃 License
+
+This project is for educational and portfolio purposes.
